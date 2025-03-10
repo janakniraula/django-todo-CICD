@@ -1,0 +1,56 @@
+usage: manage.py runserver [-h] [--ipv6] [--nothreading] [--noreload]
+                           [--nostatic] [--insecure] [--version]
+                           [--settings SETTINGS] [--pythonpath PYTHONPATH]
+                           [--no-color] [--force-color] [--skip-checks]
+                           [addrport]
+manage.py runserver: error: unrecognized arguments: end
+usage: manage.py runserver [-h] [--ipv6] [--nothreading] [--noreload]
+                           [--nostatic] [--insecure] [--version]
+                           [--settings SETTINGS] [--pythonpath PYTHONPATH]
+                           [--no-color] [--force-color] [--skip-checks]
+                           [addrport]
+manage.py runserver: error: unrecognized arguments: end
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+March 09, 2025 - 21:50:12
+Django version 4.2.11, using settings 'todoApp.settings'
+Starting development server at http://0.0.0.0:8001/
+Quit the server with CONTROL-C.
+
+usage: manage.py runserver [-h] [--ipv6] [--nothreading] [--noreload]
+                           [--nostatic] [--insecure] [--version]
+                           [--settings SETTINGS] [--pythonpath PYTHONPATH]
+                           [--no-color] [--force-color] [--skip-checks]
+                           [addrport]
+manage.py runserver: error: unrecognized arguments: and
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+March 09, 2025 - 21:51:31
+Django version 4.2.11, using settings 'todoApp.settings'
+Starting development server at http://0.0.0.0:8001/
+Quit the server with CONTROL-C.
+
+[09/Mar/2025 21:51:41] "GET / HTTP/1.1" 302 0
+[09/Mar/2025 21:51:41] "GET /todos HTTP/1.1" 301 0
+[09/Mar/2025 21:51:45] "GET /todos/ HTTP/1.1" 200 4111
+[09/Mar/2025 21:51:45] "GET /static/css/style.css HTTP/1.1" 304 0
+Not Found: /robots.txt
+[09/Mar/2025 21:54:25] "GET /robots.txt HTTP/1.1" 404 2566
+[09/Mar/2025 21:54:34] "GET / HTTP/1.1" 302 0
+[09/Mar/2025 21:54:35] "GET /todos HTTP/1.1" 301 0
